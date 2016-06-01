@@ -1,0 +1,12 @@
+<div>
+  <user-header></user-header>
+  <div class="container">
+    <a href="{{$userCtrl.link}}" target="_blank">
+      <img ng-src="{{$userCtrl.picture}}" src="../../img/user.png" alt="user foto" width="250px" height="250px">
+    </a>
+    <div>Name: {{$userCtrl.firstName}}</div>
+    <div>Surname: {{$userCtrl.lastName}}</div>
+    <div>Gender: {{$userCtrl.gender}}</div>
+    <div>Link on fb: <a href="{{$userCtrl.link}}" target="_blank">Link</a></div>
+  </div>
+</div>
